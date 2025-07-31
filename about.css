@@ -1,0 +1,40 @@
+.about-hero {
+  background-color: #f4f4f4;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.about-hero h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.about-columns {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 60px 0;
+  flex-wrap: wrap;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 300px;
+ 
+}
+
+.about-text h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  margin-bottom: 15px;
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>finaluri bolo</title>
+    <link rel="stylesheet" href="/Style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/responsive.css" />
+    
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+         <a href="/Index.html"><h1 class="logo">RAW _ETC</h1></a>
+
+      
+
+
+        <nav class="navbar">
+            
+          <a href=""
+            ><i
+              class="fa-solid fa-magnifying-glass fa-beat"
+              style="color: #000000"
+            ></i
+          >Search</a>
+          <a href=""><i class="fa-solid fa-cart-plus" style="color: #000000;"></i>Cart</a>
+          <a href=""><i class="fa-solid fa-user"></i>Log In</a>
+        </nav>
+
+      </div>
+      <div class="burger" id="menuToggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav id="sidebar">
+    <span class="close-btn" id="closeBtn">&times;</span>
+    <ul>
+      <li><a href="/Index.html">Home</a></li>
+      <li><a href="/Shop.html">Shop</a></li>
+      <li><a href="/about.html">About Us</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+
+    </ul>
+    <div class="socials">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fab fa-pinterest"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </nav>
+    </header>
+
+    <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const sidebar = document.getElementById('sidebar');
+    const closeBtn = document.getElementById('closeBtn');
+
+    menuToggle.onclick = () => sidebar.classList.add('open');
+    closeBtn.onclick = () => sidebar.classList.remove('open');
+  </script>
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1 class="hero-title">
+          ALWAYS BE<br />
+          <span class="hero-accent">ORIGINAL</span>
+        </h1>
+        <p>Discover bold, elegant pieces made to inspire.</p>
+        <a href="shop.html" class="btn">Shop Now</a>
+      </div>
+    </section>
+
+    <section class="featured-products">
+      <div class="container">
+        <h2>Featured Collection</h2>
+        <div  class="product-grid">
+          <div id="product1" class="product-card">
+            <img src="/Product Pics/A1.avif" alt="Product 1" />
+            <h3>Classic Cap</h3>
+            <p>$120.00</p>
+             <button class="buy-now">Buy Now</button>
+          </div>
+          <div class="product-card">
+            <img src="/Product Pics/B1.avif" alt="Product 2" />
+            
+            <h3>Summer Cap</h3>
+
+            <p>$89.00</p>
+             <button class="buy-now">Buy Now</button>
+          </div>
+          <div class="product-card">
+            <img src="/Product Pics/C1.avif" alt="Product 3" />
+            <h3>Urban Cap</h3>
+            <p>$65.00</p>
+             <button class="buy-now">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<div class="instagramcontainer">
+<section class="about-preview">
+      <div class="container">
+        <div class="about-text">
+          <h2>Our Story</h2>
+          <p>
+            We believe fashion should empower and uplift. Our designs are
+            inspired by real people and real moments.
+          </p>
+          <br>
+          <a href="about.html" class="btn-outline">Learn More</a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="image-grid">
+        <div class="item item-1"><img src="/gridgallery/01.jpg" alt="" /></div>
+        <div class="item item-2"><img src="/gridgallery/02.jpg" alt="" /></div>
+        <div class="item item-3"><img src="/gridgallery/03.jpg" alt="" /></div>
+        <div class="item item-4"><img src="/gridgallery/04.jpg" alt="" /></div>
+        <div class="item item-5"><img src="/gridgallery/05.jpg" alt="" /></div>
+        <div class="item item-6"><img src="/gridgallery/06.jpg" alt="" /></div>
+        <div class="item item-7"><img src="/gridgallery/07.jpg" alt="" /></div>
+        <div class="item item-8"><img src="/gridgallery/08.jpg" alt="" /></div>
+      </div>
+    </section>
+</div>
+
+    
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-links">
+            <h4 class="footer-heading">Quick Links</h4>
+            <ul class="footer-list">
+              <li>
+                <a href="/Index.html" class="footer-link">Home</a>
+              </li>
+              <li>
+                <a href="/about.html" class="footer-link"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a href="/Shop.html" class="footer-link">Shop</a>
+              </li>
+              <li><a href="/contact.html" class="footer-link">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4 class="footer-heading">Customer Care</h4>
+            <ul class="footer-list">
+         
+              <li><a href="" class="footer-link">Shipping Info</a></li>
+              <li><a href="" class="footer-link">Returns</a></li>
+              <li><a href="" class="footer-link">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Cap-Hats. All rights reserved. Always be original.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+.shop-hero {
+  background-color: #f4f4f4;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.shop-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.product-listing {
+  padding: 60px 0;
+}
+
+.buy-now {
+    margin-top: 20px;
+  background-color: #111827;
+  color: #ffffff;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.buy-now:hover {
+  background-color: #444;
+}

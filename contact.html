@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Fashion Studio</title>
+  <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="./contact.css">
+<link rel="stylesheet" href="/responsive.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header class="site-header">
+      <div class="container">
+        <h1 class="logo">RAW _ETC</h1>
+
+      
+
+
+        <nav class="navbar">
+            
+          <a href=""
+            ><i
+              class="fa-solid fa-magnifying-glass fa-beat"
+              style="color: #000000"
+            ></i
+          >Search</a>
+          <a href=""><i class="fa-solid fa-cart-plus" style="color: #000000;"></i>Cart</a>
+          <a href=""><i class="fa-solid fa-user"></i>Log In</a>
+        </nav>
+
+      </div>
+      <div class="burger" id="menuToggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav id="sidebar">
+    <span class="close-btn" id="closeBtn">&times;</span>
+    <ul>
+      <li><a href="/Index.html">Home</a></li>
+      <li><a href="/Shop.html">Shop</a></li>
+      <li><a href="/about.html">About Us</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+
+    </ul>
+    <div class="socials">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fab fa-pinterest"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </nav>
+    </header>
+
+    <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const sidebar = document.getElementById('sidebar');
+    const closeBtn = document.getElementById('closeBtn');
+
+    menuToggle.onclick = () => sidebar.classList.add('open');
+    closeBtn.onclick = () => sidebar.classList.remove('open');
+  </script>
+
+
+  <section class="contact-hero">
+    <div class="container">
+      <h2>Get in Touch With Us!</h2>
+      <p>We’d love to hear from you — fill out the form below or send us an email.</p>
+    </div>
+  </section>
+
+  <section class="contact-form-section">
+    <div class="container contact-grid">
+      <form class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Your email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Your message" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <div class="contact-info">
+        <h3>Contact Info</h3>
+        <p>Email: info@fashionstudio.com</p>
+        <p>Phone: +1 (555) 123-4567</p>
+        <p>Location: 123 Style Ave, NY, USA</p>
+      </div>
+    </div>
+  </section>
+  
+
+  
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-links">
+            <h4 class="footer-heading">Quick Links</h4>
+            <ul class="footer-list">
+              <li>
+                <a href="/Index.html" class="footer-link">Home</a>
+              </li>
+              <li>
+                <a href="/about.html" class="footer-link"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a href="/Shop.html" class="footer-link">Shop</a>
+              </li>
+              <li><a href="/contact.html" class="footer-link">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4 class="footer-heading">Customer Care</h4>
+            <ul class="footer-list">
+           
+              <li><a href="" class="footer-link">Shipping Info</a></li>
+              <li><a href="" class="footer-link">Returns</a></li>
+              <li><a href="" class="footer-link">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Cap-Hats. All rights reserved. Always be original.</p>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
